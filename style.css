@@ -1,0 +1,47 @@
+section>p {
+    font-size: 16px;
+    color: aqua;
+}
+
+section>p:hover {
+    cursor: pointer;
+    color: red;
+    text-decoration: underline;
+}
+
+a+button {
+    background-color: grey;
+}
+
+input[type="text"] {
+    color: red;
+}
+
+section button:hover {
+    color: cyan;
+}
+
+section:nth-last-of-type(1n) {
+    background-color: yellow;
+}
+
+input[type="radio"]:checked {
+    box-shadow: 0 0 0 3px orange;
+}
+
+section h3::first-letter {
+    font-size: xx-large;
+}
+
+section p::first-line {
+    color: rgb(168, 95, 0);
+}
+
+section p::before {
+    font-size: 20pt;
+    content: '*';
+}
+
+section p::after {
+    content: '*';
+}

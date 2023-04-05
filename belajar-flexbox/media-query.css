@@ -1,0 +1,61 @@
+body {
+    font-family: 'open sans', sans-serif;
+}
+
+h1 {
+    font-size: 6em;
+    text-align: center;
+    color: red;
+}
+
+nav {
+    font-size: 1.5em;
+
+}
+
+ul,
+li {
+    display: inline;
+    margin: 0;
+    padding: 0;
+}
+
+/* @media(width:500px) {
+    h1 {
+        color: aqua;
+    }
+} */
+
+@media screen and (min-width:500px) {
+    h1 {
+        color: deepskyblue;
+        font-size: 20px;
+    }
+}
+
+@media screen and (min-width:800px) {
+    h1 {
+        color: turquoise;
+        font-size: 50px;
+    }
+}
+
+@media screen and (min-width:1200px) {
+    h1 {
+        color: dodgerblue;
+        font-size: 60px;
+    }
+}
+
+
+@media screen and (orientation: Landscape) {
+    body {
+        background-color: darkslategray;
+    }
+}
+
+@media screen and (min-width:900px) and (max-width:1200px) {
+    body {
+        background-color: rgb(186, 98, 244);
+    }
+}

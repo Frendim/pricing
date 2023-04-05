@@ -1,0 +1,17 @@
+div {
+    width: 300px;
+    border: 5px solid green;
+    padding: 20px;
+    margin: 20px;
+}
+
+div {
+    border-style: dotted;
+    border-width: 5px;
+    border-top-width: 10px;
+    border-top-style: double;
+    border-left-style: groove;
+    border-right-style: ridge;
+    border-bottom-style: inset;
+    border-bottom-width: 10px;
+}
